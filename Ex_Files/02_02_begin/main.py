@@ -5,8 +5,15 @@ name = "John"
 
 intrupution = f"Hello {name}"
 
-greet_format = "Hello {}"
+greet_format = "Good Morning {}"
 
 formatted = greet_format.format(name)
 
 print(intrupution, formatted)
+
+print(formatted.upper())
+
+print(formatted.lower())
+
+print(formatted.replace("John", "Ringo"))
+
